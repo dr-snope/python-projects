@@ -32,3 +32,5 @@ The repository consists of the following Python scripts:
   Reverses a user-provided list in place using a two-pointer approach.
 * **`Tuple manipulation.py`**  
   Demonstrates how to modify values in an immutable tuple by converting it to a list and back to a tuple.
+* **`Calculator.py`**  
+ A robust CLI calculator that handles basic arithmetic operations (addition, subtraction, multiplication, and division) with built-in error handling to gracefully catch invalid inputs and prevent crashes.
