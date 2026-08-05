@@ -14,11 +14,11 @@ The repository consists of the following Python scripts:
   Accepts a custom list of integers from the user and sorts them in ascending order using the Bubble Sort algorithm.
 * **`Calculator.py`**  
  A robust CLI calculator that handles basic arithmetic operations (addition, subtraction, multiplication, and division) with built-in error handling to gracefully catch invalid inputs and prevent crashes.
-* **` Digits reverser.py`**  
+* **`Digits reverser.py`**  
   Takes an integer input and reverses the order of its digits using simple arithmetic operations (`%` and `//`).
 * **`Divide a list from middle.py`**  
   Swaps the first half of a user-input list with its second half around the midpoint.
-* **` Even numbers upto n.py`**  
+* **`Even numbers upto n.py`**  
   Iterates and displays all even numbers from `1` up to a user-specified upper limit `n`.
 * **`Factorial.py`**  
   Calculates the factorial of a user-entered number using a `while` loop.
@@ -28,7 +28,7 @@ The repository consists of the following Python scripts:
   Iterates through numbers from `2` up to `n` and prints all prime numbers found within that range.
 * **`Prime number.py`**  
   Checks whether a single user-entered integer is a prime number[cite: 9].
-* **` Print numbers with specific delay.py`**  
+* **`Print numbers with specific delay.py`**  
   Prints numbers sequentially from `1` to `n` with a customizable delay in seconds between each number using Python's `time.sleep()`.
 * **`Reverse a list.py`**  
   Reverses a user-provided list in place using a two-pointer approach.
