@@ -12,7 +12,7 @@ The repository consists of the following Python scripts:
   Checks whether a given input number is an Armstrong (n-narcissistic) number by counting its digits, raising each digit to the power of the total digits, and comparing the sum to the original number.
 * **`Bubble sort.py`**  
   Accepts a custom list of integers from the user and sorts them in ascending order using the Bubble Sort algorithm.
-  * **`Calculator.py`**  
+* **`Calculator.py`**  
  A robust CLI calculator that handles basic arithmetic operations (addition, subtraction, multiplication, and division) with built-in error handling to gracefully catch invalid inputs and prevent crashes.
 * **` Digits reverser.py`**  
   Takes an integer input and reverses the order of its digits using simple arithmetic operations (`%` and `//`).
