@@ -17,28 +17,28 @@ while is_running:
         try:
             x = int(input("Enter first number: "))
             y = int(input("Enter second number: "))
-            print("Answer is",x+y)
+            print(f"Answer is {x+y}")
         except:
             print("Error")
     elif choice == 2:
         try:
             x = int(input("Enter first number: "))
             y = int(input("Enter second number: "))
-            print("Answer is",x-y)
+            print(f"Answer is {x-y}")
         except:
             print("Error")
     elif choice == 3:
         try:
             x = int(input("Enter first number: "))
             y = int(input("Enter second number: "))
-            print("Answer is",x*y)
+            print(f"Answer is {x*y}")
         except:
             print("Error")
     elif choice == 4:
         try:
             x = int(input("Enter first number: "))
             y = int(input("Enter second number: "))
-            print("Answer is",x/y)
+            print(f"Answer is {x/y}")
         except:
             print("Error")
     else:
