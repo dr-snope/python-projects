@@ -9,7 +9,7 @@ A collection of beginner-to-intermediate Python scripts demonstrating fundamenta
 The repository consists of the following Python scripts:
 
 * **`Armstrong numbers.py`**  
-  Checks whether a given input number is an Armstrong (n-narcissistic) number by counting its digits, raising each digit to the power of the total digits, and comparing the sum to the original number.
+  Checks whether a given input number is an Armstrong (n-narcissistic) number by counting its digits, raising each digit to the power of the total number of digits, and comparing the sum to the original number.
 * **`Bubble sort.py`**  
   Accepts a custom list of integers from the user and sorts them in ascending order using the Bubble Sort algorithm.
 * **`Calculator.py`**  
@@ -32,5 +32,7 @@ The repository consists of the following Python scripts:
   Prints numbers sequentially from `1` to `n` with a customizable delay in seconds between each number using Python's `time.sleep()`.
 * **`Reverse a list.py`**  
   Reverses a user-provided list in place using a two-pointer approach.
+* **`Searching_Algorithms.py`**  
+  Contains implementations of Linear, Binary, and Interpolation Search. You can generate custom arrays, search for target elements, and compare the execution runtimes of each algorithm side-by-side.
 * **`Tuple manipulation.py`**  
   Demonstrates how to modify values in an immutable tuple by converting it to a list and back to a tuple.
