@@ -1,5 +1,3 @@
-import time
-
 def linear_search(arr, target):
     for i in range(len(arr)):
         if arr[i] == target:
@@ -43,40 +41,43 @@ def interpolation_search(arr: list[int], target:int):
 
     return -1
 
-initial = int(input('Enter initial element of array: '))
-final = int(input('Enter final element of array: '))
-step = int(input('Enter step between elements: '))
+if __name__ == '__main__':
+    import time
+    
+    initial = int(input('Enter initial element of array: '))
+    final = int(input('Enter final element of array: '))
+    step = int(input('Enter step between elements: '))
 
-array=[num for num in range(initial,final,step)]
+    array=[num for num in range(initial,final,step)]
 
-target = int(input('Enter element to look up: '))
+    target = int(input('Enter element to look up: '))
 
-#Linear search
-initial_time = time.perf_counter_ns()
+    #Linear search
+    initial_time = time.perf_counter_ns()
 
-linear_search(array, target)
+    linear_search(array, target)
 
-end_time = time.perf_counter_ns()
-time_taken = end_time - initial_time
+    end_time = time.perf_counter_ns()
+    time_taken = end_time - initial_time
 
-print(f"Linear search Time Taken: {time_taken} ns")
+    print(f"Linear search Time Taken: {time_taken} ns")
 
-#Binary search
-initial_time = time.perf_counter_ns()
+    #Binary search
+    initial_time = time.perf_counter_ns()
 
-binary_search(array, target)
+    binary_search(array, target)
 
-end_time = time.perf_counter_ns()
-time_taken = end_time - initial_time
+    end_time = time.perf_counter_ns()
+    time_taken = end_time - initial_time
 
-print(f"Binary search Time Taken: {time_taken} ns")
+    print(f"Binary search Time Taken: {time_taken} ns")
 
-#Interpolation search
-initial_time = time.perf_counter_ns()
+    #Interpolation search
+    initial_time = time.perf_counter_ns()
 
-interpolation_search(array, target)
+    interpolation_search(array, target)
 
-end_time = time.perf_counter_ns()
-time_taken = end_time - initial_time
+    end_time = time.perf_counter_ns()
+    time_taken = end_time - initial_time
 
-print(f"Interpolation search Time Taken: {time_taken} ns")
+    print(f"Interpolation search Time Taken: {time_taken} ns")
